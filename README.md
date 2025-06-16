@@ -1,115 +1,42 @@
-# Customer Segmentation with RFM and K-Means Clustering
+# Customer Segmentation for an E-commerce Platform
 
-This project performs customer segmentation on the UK-based Online Retail dataset using **RFM (Recency, Frequency, Monetary)** analysis and **K-Means Clustering**. Visual insights are provided via a custom **Power BI Dashboard**.
+This project uses transaction data from an online retail store to segment customers using the RFM (Recency, Frequency, Monetary) model and K-Means clustering. The goal is to help the business understand customer value and tailor marketing strategies.
 
----
+## 🔍 Problem Statement
+Identify different customer groups based on their shopping behavior to:
+- Improve targeted marketing
+- Personalize offers
+- Boost customer retention
 
-## 📌 Problem Statement
-To group customers into distinct segments based on their purchasing behavior to enable targeted marketing and retention strategies.
+## 📊 Dataset
+[Kaggle: Online Retail Customer Clustering](https://www.kaggle.com/datasets/hellbuoy/online-retail-customer-clustering)
 
----
+## 🧰 Tools & Technologies
+- Python (Pandas, Matplotlib, Scikit-learn, Seaborn)
+- K-Means Clustering, PCA
+- Power BI (for dashboard)
 
-## 📊 Data Source
-- Dataset: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Online+Retail)
-- Transactions from a UK-based online retailer from 2010-2011
+## 🧮 Methodology
+1. **Data Cleaning**: Handled nulls, removed canceled orders
+2. **Feature Engineering**: Built RFM table
+3. **Normalization**: Used `StandardScaler`
+4. **Clustering**: K-Means with Elbow method for k selection
+5. **Visualization**: Scatter plots and Power BI dashboard
+6. **Dashboard**: Key metrics, customer counts, RFM segment averages, cluster treemaps
 
----
+## 📊 Dashboard Snapshot
+![Dashboard](images/dashboard_overview.png)
 
-## ⚙️ Methodology
+## 📁 File Structure
+- `Customer_seg.ipynb`: Notebook with data preprocessing, clustering, and plots
+- `images/`: Dashboard and visualizations
+- `PowerBi_Dashboard/`: PBIX file for Power BI (optional)
+- `requirements.txt`: Python packages
 
-1. **Data Cleaning**: Handled missing values, canceled orders, and filtered UK customers.
-2. **RFM Calculation**:
-   - Recency: Days since last purchase
-   - Frequency: Number of purchases
-   - Monetary: Total amount spent
-3. **Standardization**: Scaled the RFM scores for clustering.
-4. **K-Means Clustering**:
-   - Used Elbow Method to select `k=4`
-   - Applied KMeans to assign Cluster Labels
-5. **Power BI Dashboard**:
-   - Visualized segment-wise metrics: average RFM, count, distribution, monetary contribution.
+## 💡 Key Insights
+- Most customers fall into Segment 1 (high frequency, low monetary)
+- Segment 3 contains high-value but infrequent customers
+- Recency varies heavily by cluster, indicating loyalty differences
 
----
-
-## 📈 Results
-
-- **Segment 3**: High frequency & high spend – loyal top customers.
-- **Segment 1**: Majority segment with low monetary value.
-- **Segment 2**: Repeat buyers with moderate frequency and spending.
-- **Segment 0**: Least engaged segment.
-
----
-
-## 🖥️ Dashboard Preview
-
-![Dashboard](powerbi_dashboard/dashboard_screenshot.png)
-
-> Built using Power BI, includes KPIs, pie chart, scatter plot, treemap, and bar charts.
-
----
-
-## 📁 Files in This Repo
-
-| File | Description |
-|------|-------------|
-| `Customer_seg.ipynb` | Jupyter notebook with all steps |
-| `OnlineRetail.csv` | Dataset |
-| `dashboard_screenshot.png` | Dashboard preview |
-| `Customer_Segmentation_Dashboard.pbix` | Power BI dashboard |
-| `requirements.txt` | Python packages |
-
----
-
-## 🚀 How to Run
-
-```bash
-# Clone the repo
-git clone https://github.com/your-username/Customer-Segmentation-RFM-KMeans.git
-cd Customer-Segmentation-RFM-KMeans
-
-# (Optional) Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # or .\venv\Scripts\activate on Windows
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Open Jupyter notebook
-jupyter notebook notebook/Customer_seg.ipynb
-
-```
-
----
-
-## 🧑‍💻 4. **Portfolio Website Structure**
-
-### 📁 Project Card or Section:
-
-#### 🧾 Title:
-**Customer Segmentation using RFM and Clustering**
-
-#### 📄 Description:
-> Leveraged RFM model and K-Means clustering to segment customers based on purchasing behavior from a retail dataset. Delivered actionable insights using a professional Power BI dashboard highlighting key customer segments, purchase trends, and revenue distribution.
-
-#### 🔗 Buttons or Links:
-- 🔍 **View Notebook** → link to GitHub `Customer_seg.ipynb`
-- 📊 **View Dashboard** → link to Power BI screenshot or embed
-- 🌐 **View GitHub Repo** → link to full repository
-
-#### 🖼️ Preview:
-- Add your dashboard screenshot thumbnail
-- Include one sample cluster plot or heatmap if available
-
----
-
-## 🧾 5. **requirements.txt (Sample)**
-
-```txt
-pandas
-matplotlib
-seaborn
-scikit-learn
-jupyter
-```
-
-
+## 📜 License
+This project is for educational and demo purposes. Dataset © its original owner (see Kaggle link).
