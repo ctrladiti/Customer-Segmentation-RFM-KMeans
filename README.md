@@ -4,7 +4,7 @@ This project applies **RFM Analysis** and **K-Means Clustering** to segment cust
 
 ---
 
-## 📊 Overview
+## Overview
 
 Customer segmentation is crucial for personalized marketing, retention strategies, and business growth. Using historical transaction data, we identify groups of customers with similar behaviors based on:
 
