@@ -14,7 +14,7 @@ Customer segmentation is crucial for personalized marketing, retention strategie
 
 ---
 
-## 🧠 Key Objectives
+## Key Objectives
 
 - Clean and preprocess transaction data
 - Derive RFM values per customer
