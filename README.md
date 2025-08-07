@@ -23,7 +23,7 @@ Customer segmentation is crucial for personalized marketing, retention strategie
 
 ---
 
-## 🗃️ Dataset
+## Dataset
 
 **Source:** [Kaggle - Online Retail Dataset](https://www.kaggle.com/datasets/hellbuoy/online-retail-customer-clustering)
 
