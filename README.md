@@ -33,7 +33,7 @@ Customer segmentation is crucial for personalized marketing, retention strategie
 
 ---
 
-## ⚙️ Tools & Technologies
+## Tools & Technologies
 
 - **Python** (Pandas, NumPy, scikit-learn, matplotlib, seaborn)
 - **Jupyter Notebook** – for analysis and modeling
