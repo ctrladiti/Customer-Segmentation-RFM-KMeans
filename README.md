@@ -41,7 +41,7 @@ Customer segmentation is crucial for personalized marketing, retention strategie
 
 ---
 
-## 📘 Notebook Workflow: `Customer_seg.ipynb`
+## Notebook Workflow: `Customer_seg.ipynb`
 
 The Jupyter notebook contains the following major steps:
 
