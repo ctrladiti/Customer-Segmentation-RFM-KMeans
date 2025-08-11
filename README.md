@@ -71,7 +71,7 @@ The Jupyter notebook contains the following major steps:
 
 ---
 
-## 🔍 Clustering Approach: Elbow Method & Cluster Summary
+## Clustering Approach: Elbow Method & Cluster Summary
 
 To identify the **optimal number of customer segments**, the **Elbow Method** was used. This technique helps determine the value of `k` (number of clusters) by plotting the **inertia (within-cluster sum of squares)** against increasing values of `k`.
 
