@@ -101,7 +101,7 @@ These clusters were later used in Power BI for visualization and deeper segmenta
 
 ---
 
-## 📊 Dashboard Snapshot
+## Dashboard Snapshot
 
 ![Dashboard](images/dashboard.png)
 
