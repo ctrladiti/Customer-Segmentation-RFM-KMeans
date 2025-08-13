@@ -107,7 +107,7 @@ These clusters were later used in Power BI for visualization and deeper segmenta
 
 ---
 
-## 📊 Power BI Dashboard Highlights
+## Power BI Dashboard Highlights
 
 **File:** `dashboard/customer_dashboard.pbix`  
 **Screenshots:** `dashboard/`
