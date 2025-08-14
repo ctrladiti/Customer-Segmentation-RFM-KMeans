@@ -112,7 +112,7 @@ These clusters were later used in Power BI for visualization and deeper segmenta
 **File:** `dashboard/customer_dashboard.pbix`  
 **Screenshots:** `dashboard/`
 
-### 🔹 Key Visuals:
+### Key Visuals:
 
 - 📍 **Scatter Plot (RFM Clusters)**
 
