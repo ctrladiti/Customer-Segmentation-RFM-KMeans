@@ -114,7 +114,7 @@ These clusters were later used in Power BI for visualization and deeper segmenta
 
 ### Key Visuals:
 
-- 📍 **Scatter Plot (RFM Clusters)**
+- **Scatter Plot (RFM Clusters)**
 
   - X: Frequency, Y: Monetary, Legend: ClusterLabel
 
