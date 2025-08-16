@@ -118,7 +118,7 @@ These clusters were later used in Power BI for visualization and deeper segmenta
 
   - X: Frequency, Y: Monetary, Legend: ClusterLabel
 
-- 🧱 **Treemap**
+- **Treemap**
 
   - Grouped by ClusterLabel, sized by TotalSpend, showing count of customers
 
