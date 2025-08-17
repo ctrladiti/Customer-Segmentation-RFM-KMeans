@@ -122,7 +122,7 @@ These clusters were later used in Power BI for visualization and deeper segmenta
 
   - Grouped by ClusterLabel, sized by TotalSpend, showing count of customers
 
-- 📅 **Card KPIs**
+- **Card KPIs**
 
   - Number of unique customers, top cluster, total revenue
 
