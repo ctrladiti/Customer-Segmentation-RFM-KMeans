@@ -126,7 +126,7 @@ These clusters were later used in Power BI for visualization and deeper segmenta
 
   - Number of unique customers, top cluster, total revenue
 
-- 📈 **Bar Charts**
+- **Bar Charts**
   - Cluster-wise Average RFM Metrics
 
 ### 🖌️ Used Color Scheme
