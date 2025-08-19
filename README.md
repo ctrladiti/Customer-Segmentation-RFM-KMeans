@@ -129,7 +129,7 @@ These clusters were later used in Power BI for visualization and deeper segmenta
 - **Bar Charts**
   - Cluster-wise Average RFM Metrics
 
-### 🖌️ Used Color Scheme
+### Used Color Scheme
 
 | Cluster | Color Suggestion | Purpose             |
 | ------- | ---------------- | ------------------- |
