@@ -140,7 +140,7 @@ These clusters were later used in Power BI for visualization and deeper segmenta
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository:
 
